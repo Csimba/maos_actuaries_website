@@ -1,0 +1,58 @@
+<svg viewBox="0 0 760 700" xmlns="http://www.w3.org/2000/svg" font-family="Instrument Sans, system-ui, sans-serif" role="img" aria-label="The actuarial control cycle: specify the problem, develop the solution, monitor the experience — within the general commercial and economic environment, underpinned by professionalism">
+  <defs>
+    <linearGradient id="accG1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5BC6F2"/><stop offset="1" stop-color="#1E8FC4"/>
+    </linearGradient>
+    <linearGradient id="accG2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2FA8DC"/><stop offset="1" stop-color="#0E7CB2"/>
+    </linearGradient>
+    <linearGradient id="accG3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0E7CB2"/><stop offset="1" stop-color="#0A5B84"/>
+    </linearGradient>
+    <linearGradient id="accInk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#122438"/><stop offset="1" stop-color="#0B1826"/>
+    </linearGradient>
+    <linearGradient id="accWine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A32228"/><stop offset="1" stop-color="#821218"/>
+    </linearGradient>
+    <filter id="accShadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0B1826" flood-opacity="0.22"/>
+    </filter>
+    <marker id="accArrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#33475C"/>
+    </marker>
+  </defs>
+
+  <!-- environment band -->
+  <rect x="30" y="14" width="700" height="96" rx="14" fill="url(#accInk)" filter="url(#accShadow)"/>
+  <text x="380" y="53" text-anchor="middle" fill="#9AD4FB" font-size="24" font-weight="600">The General Commercial and</text>
+  <text x="380" y="85" text-anchor="middle" fill="#9AD4FB" font-size="24" font-weight="600">Economic Environment</text>
+
+  <!-- cycle arrows -->
+  <line x1="298" y1="258" x2="462" y2="258" stroke="#33475C" stroke-width="3.5" marker-start="url(#accArrow)" marker-end="url(#accArrow)"/>
+  <line x1="512" y1="352" x2="452" y2="428" stroke="#33475C" stroke-width="3.5" marker-start="url(#accArrow)" marker-end="url(#accArrow)"/>
+  <line x1="308" y1="428" x2="248" y2="352" stroke="#33475C" stroke-width="3.5" marker-end="url(#accArrow)"/>
+
+  <!-- circles -->
+  <g filter="url(#accShadow)">
+    <circle cx="190" cy="258" r="102" fill="url(#accG1)"/>
+    <circle cx="570" cy="258" r="102" fill="url(#accG2)"/>
+    <circle cx="380" cy="480" r="102" fill="url(#accG3)"/>
+  </g>
+  <circle cx="190" cy="258" r="102" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1.5"/>
+  <circle cx="570" cy="258" r="102" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1.5"/>
+  <circle cx="380" cy="480" r="102" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1.5"/>
+
+  <!-- circle labels -->
+  <text x="190" y="250" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="600">Specify the</text>
+  <text x="190" y="280" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="600">Problem</text>
+  <text x="570" y="238" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="600">Develop</text>
+  <text x="570" y="268" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="600">the</text>
+  <text x="570" y="298" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="600">Solution</text>
+  <text x="380" y="472" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="600">Monitor the</text>
+  <text x="380" y="502" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="600">Experience</text>
+
+  <!-- professionalism band -->
+  <rect x="30" y="612" width="700" height="72" rx="14" fill="url(#accWine)" filter="url(#accShadow)"/>
+  <text x="380" y="657" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="600" letter-spacing="1">Professionalism</text>
+</svg>
